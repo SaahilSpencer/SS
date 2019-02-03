@@ -174,23 +174,6 @@ section h2 {
   opacity: .5;
 }
 
-#section05 a {
-  position: absolute;
-  margin-top: 2000px;
-  left: 50%;
-  z-index: 2;
-  display: inline-block;
-  -webkit-transform: translate(0, -50%);
-  transform: translate(0, -50%);
-  color: #fff;
-  font : normal 1 15px/1 'Josefin Sans', sans-serif;
-  letter-spacing: .1em;
-  text-decoration: none;
-  transition: opacity .3s;
-}
-.demo a:hover {
-  opacity: .5;
-}
 
 
 
@@ -294,85 +277,6 @@ section h2 {
 #section04 a span::before {
   position: absolute;
   top: 0;
-  left: 0;
-  z-index: -1;
-  content: '';
-  width: 44px;
-  height: 44px;
-  box-shadow: 0 0 0 0 rgba(255,255,255,.1);
-  border-radius: 100%;
-  opacity: 0;
-  -webkit-animation: sdb04 3s infinite;
-  animation: sdb04 3s infinite;
-  box-sizing: border-box;
-}
-@-webkit-keyframes sdb04 {
-  0% {
-    opacity: 0;
-  }
-  30% {
-    opacity: 1;
-  }
-  60% {
-    box-shadow: 0 0 0 60px rgba(255,255,255,.1);
-    opacity: 0;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-@keyframes sdb04 {
-  0% {
-    opacity: 0;
-  }
-  30% {
-    opacity: 1;
-  }
-  60% {
-    box-shadow: 0 0 0 60px rgba(255,255,255,.1);
-    opacity: 0;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-
-
-
-
-#section05 a {
-  margin-top: 2000px;
-  align= center;
-}
-#section05 a span {
-  position: absolute;
-  margin-top: 2000px;
-  left: 50%;
-  width: 46px;
-  height: 46px;
-  margin-left: -23px;
-  border: 1px solid #fff;
-  border-radius: 100%;
-  box-sizing: border-box;
-}
-#section05 a span::after {
-  position: absolute;
-  margin-top: 2000px;
-  left: 50%;
-  content: '';
-  width: 16px;
-  height: 16px;
-  margin: -12px 0 0 -8px;
-  border-left: 1px solid #fff;
-  border-bottom: 1px solid #fff;
-  -webkit-transform: rotate(-45deg);
-  transform: rotate(135deg);
-  box-sizing: border-box;
-}
-#section05 a span::before {
-  position: absolute;
-  margin-top: 2000px;
   left: 0;
   z-index: -1;
   content: '';
