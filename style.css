@@ -3,8 +3,7 @@ body {margin:0;}
 .text {
   color: white;
   font-size: 50;
-  text-align: center;
-  margin-top: 50%;
+  margin-top: 100%;
   position: absolute;
 }
 
