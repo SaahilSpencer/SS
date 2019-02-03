@@ -176,7 +176,7 @@ section h2 {
 
 #section05 a {
   position: absolute;
-  bottom: 600px;
+  margin-top="2000px";
   left: 50%;
   z-index: 2;
   display: inline-block;
