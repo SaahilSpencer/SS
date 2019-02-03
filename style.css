@@ -340,7 +340,7 @@ section h2 {
 }
 #section05 a span::after {
   position: absolute;
-  top: 70%;
+  top: 2000px;
   left: 50%;
   content: '';
   width: 16px;
@@ -354,7 +354,7 @@ section h2 {
 }
 #section05 a span::before {
   position: absolute;
-  top: 0;
+  top: 2000px;
   left: 0;
   z-index: -1;
   content: '';
