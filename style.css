@@ -1,5 +1,11 @@
 body {margin:0;}
 
+.text {
+  color: white;
+  text-align: center;
+}
+
+
 .navbar {
   overflow: hidden;
   background-color: #333;
