@@ -7,7 +7,35 @@ body {margin:0;}
 																	padding: 0;
 																	overflow: hidden;
 																	background-color: #c0c0c0;
-																	}
+	body {margin:0;}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 1918px;
+}
+
+.navbar a {
+  float: center;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 600px; /* Used in this example to enable scrolling */
+}
+ul {																}
 																	
 																li {
 																
@@ -78,44 +106,7 @@ section h1 {
 #section03 { background: url(https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png) center center / cover no-repeat;}
 
 
-#thanks {
-  background-color: #fff;
-}
-#thanks::after {
-  content: none;
-}
-#thanks div {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  z-index: 2;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-section h2 {
-  position: absolute;
-  top: -25px;
-  left: -130px;
-  margin-bottom: 1px;
-  color: #fff;
-  font : normal 300 64px/5 'Josefin Sans', sans-serif;
-  text-align: center;
-  
-  white-space: nowrap;
-}
-#thanks p {
-  color: #333;
-  font : normal 400 20px/1 'Josefin Sans', sans-serif;
-}
-#thanks p a {
-  color: #333;
-  text-decoration: none;
-  transition: color .3s;
-}
-#thanks p a:hover {
-  color: #888;
-}
+
 #section03 a {
   position: absolute;
   bottom: 20px;
