@@ -8,12 +8,14 @@ body {
 	display: none; 
 }
 
+
 h1 {
 	font-size : 100px;
 	text-align: center;
-	margin-top: 15%;
+	margin-top: 16%;
 	color: white;
 	font-family: consolas;
+	float: center;
 }
 
 h2 {
@@ -21,7 +23,7 @@ h2 {
 	color: white;
 	font-family: consolas;
 	text-align: center;
-	margin-top: 70px;
+	margin-top: 80px;
 }
 
 .brakeline {
