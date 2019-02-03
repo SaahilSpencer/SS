@@ -3,9 +3,8 @@ body {margin:0;}
 .text {
   color: white;
   font-size: 50;
-  margin-top: 200px;
-  margin-left: 50px;
-  position: absolute;
+  margin-top: 100%;
+  margin-left: 50%;
 }
 
 
