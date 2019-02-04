@@ -1,10 +1,11 @@
 body {margin:0;}
 
-::-webkit-scrollbar { 
-	display: none; 
+::-webkit-scrollbar {
+	display: none;
 }
 
 .bg {
+	overflow: auto;
 	background-image: url("https://images.pexels.com/photos/1367192/pexels-photo-1367192.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -32,22 +33,19 @@ body {margin:0;}
 }
 
 .btn:hover {
+	overflow: auto;
 	border-radius: 10px;
 	padding: 17px 32px;
 	background: rgba(0, 0, 0, .1)
-	
+
 }
-
-
-
 
 h1 {
 	font-size : 100px;
 	text-align: center;
-	margin-top: 16%;
+	margin-top: 15%;
 	color: white;
 	font-family: consolas;
-	padding: 50;
 }
 
 h2 {
@@ -100,7 +98,7 @@ h6 {
 }
 
 .bg2 {
-    overflow: auto;
+  overflow: auto;
 	background-image: url("https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
 	background-attachment: fixed;
 	background-size: cover;
@@ -112,4 +110,3 @@ h6 {
 	background-color: #333333;
 	width: 2250px 100px;
 }
-
