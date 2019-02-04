@@ -69,6 +69,15 @@ h4 {
 	margin-top: 300px;
 }
 
+h5 {
+	font-size: 15;
+	text-align: center;
+	margin: auto;
+	padding-top: 0;
+	color: grey;
+	font-family: calibri;
+}
+
 p2 {
 	font-size: 20;
 	color: lightblue;
@@ -94,6 +103,9 @@ p2 {
 	height: 1000;
 }
 
-::-webkit-scrollbar { 
-	display: none; 
+
+.copyright {
+	background-color: #333333;
+	width: 2250px 100px;
 }
+
