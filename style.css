@@ -59,18 +59,13 @@ p2 {
 	color: white;
 }
 
-.box {
-	margin-top: 470;
-	background: rgba(0, 0, 0, .70);
-	border: 0px solid;
-	width: 1920;
-	height: 1000;
-}
 
-.box {
+.bg {
+	margin-top: 350;
 	background-image: url("https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+	height: 1000;
 }
 
 ::-webkit-scrollbar { 
